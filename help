@@ -1,0 +1,2 @@
+
+change : script -> sequecepy  def __init__(self, seq_path: Path='my dataset location') dataset is "C:\Users\hase0\OneDrive\바탕 화면\Dataset\thun_00_a_events_left"

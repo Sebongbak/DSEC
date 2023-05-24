@@ -1,2 +1,7 @@
 
 change : script -> sequecepy  def __init__(self, seq_path: Path='my dataset location') dataset is "C:\Users\hase0\OneDrive\바탕 화면\Dataset\thun_00_a_events_left"
+
+
+error : usage: Visualize Events [-h] [--delta_time_ms DELTA_TIME_MS]
+                        C:/Users/hase0/OneDrive/바탕 화면/events.h5 C:/Users/hase0/OneDrive/바탕 화면/output.mp4
+Visualize Events: error: the following arguments are required: C:/Users/hase0/OneDrive/바탕 화면/events.h5, C:/Users/hase0/OneDrive/바탕 화면/output.mp4

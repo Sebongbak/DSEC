@@ -31,7 +31,7 @@ class Sequence(Dataset):
     #         ├── events.h5
     #         └── rectify_map.h5
 
-    def __init__(self, seq_path: Path, mode: str='train', delta_t_ms: int=50, num_bins: int=15):
+    def __init__(self, seq_path: Path = 'C:\Users\hase0\OneDrive\바탕 화면\Dataset\thun_00_a_events_left', mode: str='train', delta_t_ms: int=50, num_bins: int=15):
         assert num_bins >= 1
         assert delta_t_ms <= 100, 'adapt this code, if duration is higher than 100 ms'
         assert seq_path.is_dir()

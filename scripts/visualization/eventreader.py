@@ -7,7 +7,7 @@ from utils.eventslicer import EventSlicer
 
 
 class EventReaderAbstract:
-    def __init__(self, filepath: Path):
+    def __init__(self, filepath: Path = "C:\Users\hase0\OneDrive\바탕 화면\Dataset\thun_00_a_events_left\events.h5"):
         assert filepath.is_file()
         assert filepath.name.endswith('.h5')
         self.h5f = h5py.File(str(filepath), 'r')
